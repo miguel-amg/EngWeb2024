@@ -6,4 +6,4 @@ Aqui serão armazenados todos os trabalhos da unidade curricular de Engenharia W
 ## Aluno
 - **Nome:** Miguel Ângelo Martins Guimarães
 - **ID:** a100837
-- **Foto:** ![Fotografia do Aluno](myfoto.jpg)
+- **Foto:** ![Fotografia do Aluno](perfil.jpg)
