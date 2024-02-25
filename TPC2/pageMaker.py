@@ -26,7 +26,6 @@ def find_city_name (mapInfo, target_id):
 
 ############################### Code ###############################
 # Open json
-#maps = open(mapString, mode="r", encoding='utf-8')
 mapInfo = json.loads(mapString)
 
 ############################### City connection Content ###############################
@@ -64,7 +63,7 @@ for data in mapInfo['cidades']:
         <br> <b> Distrito: </b> {data["distrito"]} </br>
         <br> <b> População: </b> {data["população"]} </br>
         <br> <b> Descrição: </b> {data["descrição"]} </br>
-        <b> Ligações: </b> 
+        <b> Ligações: </b>  
     """
 
     # Add all connections of this city
@@ -76,7 +75,7 @@ for data in mapInfo['cidades']:
         c_city_name = find_city_name(mapInfo, c_destination)
 
         contentHTML += f"""
-            <br> <b> Ligação id# {c_id} ({data["nome"]} - {c_city_name}): </b> distância {c_distance} </br>             
+            <br> <b> {data["nome"]} - <a href="/{c_destination}"> {c_city_name}</a>: </b> Distância é de {c_distance} metros.</br>            
         """
     ############################### HTML ###############################
     preHTML = f"""
