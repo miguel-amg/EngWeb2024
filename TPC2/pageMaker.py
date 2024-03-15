@@ -1,7 +1,7 @@
 """ 
     Name: Miguel Guimarães
     University: Universidade do Minho
-    Engenharia Web 2024 / Web Engeneering 2024 
+    Engenharia Web 2024 / Web Engineering 2024 
 
     Nota: 
     - No intuito de otimizar o conteúdo das ligações, o JSON é percorrido apenas uma vez como um desafio de otimização.

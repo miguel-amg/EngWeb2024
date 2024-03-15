@@ -1,7 +1,7 @@
 /* 
     Name: Miguel Guimarães
     University: Universidade do Minho
-    Engenharia Web 2024 / Web Engeneering 2024 
+    Engenharia Web 2024 / Web Engineering 2024 
 */
 
 // Imports 
