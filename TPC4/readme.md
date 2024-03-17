@@ -20,21 +20,21 @@ Tarefas:
 4. Investigar e inserir pelo menos 5 compositores do período moderno ou serialista.
 
 ## Preview do trabalho realizado:
-**Página inicial**
+###**Página inicial**
 ![Página inicial](/TPC4/Screenshots/inicio.png)
 
-**Página dos compositores**
+###**Página dos compositores**
 
 ![Página dos compositores](/TPC4/Screenshots/comps.png)
 
-**Página dos compositor**
+###**Página dos compositor**
 
 ![Página dos compositor](/TPC4/Screenshots/comp.png)
 
-**Página adicionar compositor**
+###**Página adicionar compositor**
 
 ![Página adicionar compositor](/TPC4/Screenshots/addComp.png)
 
-**Página dos periodos**
+###**Página dos periodos**
 
 ![Página dos periodos](/TPC4/Screenshots/periodos.png)
