@@ -21,7 +21,7 @@ Tarefas:
 
 ## Preview do trabalho realizado:
 **Página inicial**
-![Página inicial](TPC4/Screenshots/inicio.png)
+![Página inicial](/TPC4/Screenshots/inicio.png)
 
 **Página dos compositores**
 ![Página dos compositores](/Screenshots/comps.png)
