@@ -21,7 +21,7 @@ Tarefas:
 
 ## Preview do trabalho realizado:
 **Página inicial**
-![s](/Screenshots/inicio.png)
+![Página inicial](/Screenshots/inicio.png)
 
 **Página dos compositores**
 ![Página dos compositores](/Screenshots/comps.png)
