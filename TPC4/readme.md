@@ -24,13 +24,17 @@ Tarefas:
 ![Página inicial](/TPC4/Screenshots/inicio.png)
 
 **Página dos compositores**
-![Página dos compositores](/Screenshots/comps.png)
+
+![Página dos compositores](/TPC4/Screenshots/comps.png)
 
 **Página dos compositor**
-![Página dos compositor](/Screenshots/comp.png)
+
+![Página dos compositor](/TPC4/Screenshots/comp.png)
 
 **Página adicionar compositor**
-![Página adicionar compositor](/Screenshots/addComp.png)
+
+![Página adicionar compositor](/TPC4/Screenshots/addComp.png)
 
 **Página dos periodos**
-![Página dos periodos](/Screenshots/periodos.png)
+
+![Página dos periodos](/TPC4/Screenshots/periodos.png)
