@@ -1,0 +1,39 @@
+html
+    head
+      title #{dados.periodo}
+      meta(charset="utf-8")
+      link(rel="icon", href="public/images/favicon.png")
+      link(rel="stylesheet", href="/stylesheets/w3.css")
+    
+    body
+      div.w3-bar.w3-black
+        a(href="/", class="w3-bar-item w3-button") Inicio
+        a(href="/compositores", class="w3-bar-item w3-button") Compositores
+        a(href="/periodos", class="w3-bar-item w3-button") Periodos
+        a(href="/compositores/add", class="w3-bar-item w3-button") Add Compositor
+        a(href="/periodos/add", class="w3-bar-item w3-button") Add Periodo
+
+      div.w3-card-4
+        header.w3-container.w3-blue
+          i 
+            h1 Periodo do #{dados.periodo}
+      table.w3-table-all.w3-light-blue
+        tr.w3-blue
+          th Compositores deste periodo:
+          th Ações
+
+
+        each comp in compositores
+          tr.w3-light-blue
+            td 
+              a(href=`/compositores/${comp.id}`, style="text-decoration:none")
+                i
+                h4 #{comp.nome}
+            td
+              a(href=`/compositores/edit/${comp.id}`, style="text-decoration:none") 
+                b Editar
+              a(href=`/compositores/delete/${comp.id}`, style="text-decoration:none") 
+                b Delete
+ 
+      footer(class="w3-container w3-blue")
+        address Miguel Guimarães (Web Engineering 2024) [<a href="/periodos">Voltar</a>]

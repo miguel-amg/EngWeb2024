@@ -1,0 +1,29 @@
+html
+  head
+    title Eliminado #{dados.periodo}
+    meta(charset="utf-8")
+    link(rel="icon", href="/images/favicon.png")
+    link(rel="stylesheet", href="/stylesheets/w3.css")
+    
+  body
+    div.w3-bar.w3-black
+      a(href="/", class="w3-bar-item w3-button") Inicio
+      a(href="/compositores", class="w3-bar-item w3-button") Compositores
+      a(href="/periodos", class="w3-bar-item w3-button") Periodos
+      a(href="/compositores/add", class="w3-bar-item w3-button") Add Compositor
+      a(href="/periodos/add", class="w3-bar-item w3-button") Add Periodo
+
+    div.w3-card-4
+      header.w3-container.w3-red
+        h1 
+          b Eliminado: 
+            h2 
+              i #{dados.periodo}
+
+    div.w3-panel.w3-pale-red.w3-leftbar.w3-border-red
+      br
+      b Biografia: 
+      | #{dados.periodo}
+          
+    footer(class="w3-container w3-red")
+      address Miguel Guimarães (Web Engineering 2024) [<a href="/periodos">Voltar</a>]

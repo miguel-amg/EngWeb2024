@@ -1,0 +1,36 @@
+html
+    head
+        title Compositor #{dados.nome}
+        meta(charset="utf-8")
+        link(rel="icon", href="/images/favicon.png")
+        link(rel="stylesheet", href="/stylesheets/w3.css")
+    
+    body
+    
+    div.w3-bar.w3-black
+        a(href="/", class="w3-bar-item w3-button") Inicio
+        a(href="/compositores", class="w3-bar-item w3-button") Compositores
+        a(href="/periodos", class="w3-bar-item w3-button") Periodos
+        a(href="/compositores/add", class="w3-bar-item w3-button") Add Compositor
+        a(href="/periodos/add", class="w3-bar-item w3-button") Add Periodo
+
+    div.w3-card-4
+        header(class="w3-container w3-blue")
+          i 
+            h1 #{dados.nome}
+        
+        br
+        b Biografia: 
+        | #{dados.bio}
+        br 
+        b Data de nascimento: 
+        | #{dados.dataNasc}
+        br 
+        b Data de óbito: 
+        | #{dados.dataObito}
+        br 
+        b Período: 
+        |#{dados.periodo}
+
+        footer(class="w3-container w3-blue")
+            address Miguel Guimarães (Web Engineering 2024) [<a href="/compositores">Voltar</a>]

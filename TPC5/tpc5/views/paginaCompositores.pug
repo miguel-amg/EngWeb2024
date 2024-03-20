@@ -1,0 +1,40 @@
+////////////////////////////////////////////// Página dos compositores //////////////////////////////////////////////
+html
+  head
+    title Compositores
+    meta(charset="utf-8")
+    link(rel="icon", href="/images/favicon.png")
+    link(rel="stylesheet", href="/stylesheets/w3.css")
+  
+  body
+    
+    div.w3-bar.w3-black
+      a(href="/", class="w3-bar-item w3-button") Inicio
+      a(href="/compositores", class="w3-bar-item w3-button") Compositores
+      a(href="/periodos", class="w3-bar-item w3-button") Periodos
+      a(href="/compositores/add", class="w3-bar-item w3-button") Add Compositor
+      a(href="/periodos/add", class="w3-bar-item w3-button") Add Periodo
+
+    div.w3-card-4
+      header(class="w3-container w3-blue")
+        h1 Compositores
+
+      table(class="w3-table-all w3-light-blue")
+        tr(class="w3-blue")
+            th Nome
+            th Ações
+
+        each dado in dados
+          tr(class="w3-light-blue")
+            td
+              a(href=`/compositores/${dado.id}`, style="text-decoration:none")
+                i
+                  h4= dado.nome
+            td
+              a(href=`/compositores/edit/${dado.id}`, style="text-decoration:none") Editar
+              |  | 
+              a(href=`/compositores/delete/${dado.id}`, style="text-decoration:none") Delete
+
+
+      footer(class="w3-container w3-blue")
+        address Miguel Guimarães (Web Engineering 2024) [<a href="/">Voltar</a>]

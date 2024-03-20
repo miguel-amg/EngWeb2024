@@ -1,0 +1,38 @@
+html
+  head
+    title Editar #{dados.nome}
+    meta(charset="utf-8")
+    link(rel="icon", href="/images/favicon.png")
+    link(rel="stylesheet", href="/stylesheets/w3.css")
+
+  body.w3-light-blue
+    div.w3-bar.w3-black
+      a(href="/", class="w3-bar-item w3-button") Inicio
+      a(href="/compositores", class="w3-bar-item w3-button") Compositores
+      a(href="/periodos", class="w3-bar-item w3-button") Periodos
+      a(href="/compositores/add", class="w3-bar-item w3-button") Add Compositor
+      a(href="/periodos/add", class="w3-bar-item w3-button") Add Periodo
+
+    div.w3-card-4
+      header.w3-container.w3-blue
+        i 
+          h1 #{dados.nome}
+          
+        form(method="POST")
+          fieldset
+            label Id (CXXX)
+            input(class="w3-input w3-round", type="text", name="id", readonly value = dados.id)
+            label Nome
+            input(class="w3-input w3-round", type="text", name="nome", value = dados.nome)
+            label Bio
+            input(class="w3-input w3-round", type="text", name="bio", value = dados.bio)
+            label Data de Nascimento
+            input(class="w3-input w3-round", type="text", name="dataNasc", value = dados.dataNasc)
+            label Data de Obito 
+            input(class="w3-input w3-round", type="text", name="dataObito", value = dados.dataObito)
+            label Periodo
+            input(class="w3-input w3-round", type="text", name="periodo", value = dados.periodo)
+            button(class="w3-btn w3-block w3-orange", type="submit") Editar compositor
+
+      footer(class="w3-container w3-blue")
+        address Miguel Guimarães (Web Engineering 2024) [<a href="/compositores">Voltar</a>]
