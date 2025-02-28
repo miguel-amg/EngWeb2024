@@ -1,9 +1,5 @@
-# EngWeb2024
+# Web Engineering 
 
-## Introdução
-Aqui serão armazenados todos os trabalhos da unidade curricular de Engenharia Web
+- Contains all pratical work that was done in this class
 
-## Aluno
-- **Nome:** Miguel Ângelo Martins Guimarães
-- **ID:** a100837
-- **Foto:** ![Fotografia do Aluno](perfil.jpg)
+
